@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloWorldComponent implements OnInit {
 
-  constructor() { }
+  helloWorld : string[]
+
+  constructor() { 
+    this.helloWorld = ['Hello world', 'Olá mundo', 'Bonjour monde', 'Hallo Welt', 'Ciao mondo', 'Hola mundo']
+  }
 
   ngOnInit(): void {
   }
+
 
 }
